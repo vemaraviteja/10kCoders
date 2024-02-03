@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridTemplate</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            grid-template-rows: auto auto auto auto auto auto auto auto;
+        }
+        .child1{
+            grid-row: 1/4;
+        }
+        .child2{
+            grid-column: 2/3;
+        }
+        .child3{
+            grid-column: 3/4;
+        }
+        .child4{
+            grid-row:4/5;
+            position: relative;
+            bottom: 232px;
+        }
+        .child5{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            position: relative;
+            bottom: 16px;
+        }
+        .child6{
+            grid-row: 2/3;
+            position: relative;
+            bottom: 200px;
+        }
+        .child7{
+            grid-column: 1/2;
+            grid-row: 5/6;
+            position: relative;
+            bottom: 330px;
+        }
+        .child8{
+            grid-column: 2/3;
+            grid-row: 3/4;
+            position: relative;
+            bottom: 150px;
+        }
+        .child9{
+            grid-column: 3/4;
+            position: relative;
+            bottom: 210px;
+        }
+        .child10{
+            grid-column: 1/2;
+            position: relative;
+            bottom: 330px;
+        }
+        .child11{
+            grid-column: 2/3;
+            grid-row: 4/5;
+            position: relative;
+            bottom: 330px;
+        }
+        .child12{
+            grid-column: 3/4;
+            position: relative;
+            bottom: 671px;
+        }
+        .child13{
+            grid-column: 1/2;
+            position: relative;
+            bottom: 420px;
+        }
+        .child14{
+            grid-column: 2/3;
+            position: relative;
+            bottom: 820px;
+        }
+        .child15{
+            grid-column: 3/4;
+            position: relative;
+            bottom: 680px;
+        }
+        .child16{
+            grid-column: 1/2;
+            position: relative;
+            bottom: 623px;
+        }
+        .child17{
+            position: relative;
+            bottom: 850px;
+        }
+        .child18{
+            position: relative;
+            bottom: 933px;
+        }
+        .menu{
+            padding-top: 10px;
+            text-align: center;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.5;
+        }
+        .down{
+            position: relative;
+            top: -700px;
+            left: 500px;
+        }
+        .button:hover .container{
+            gap: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu">
+        <h1>PHOTOLIO</h1>
+        <h4>A Template Made By RAVI VEMA</h4>
+        <!--<button style="background-color: grey;"> TOOGLE GRID PADDING</button>-->
+    </div>
+    <button style="background-color: grey;"> TOOGLE GRID PADDING</button>
+    <br>
+    <div class="container">
+        <div class="child1"><img src="./Images/grid1.jpg" alt="" height="600px" width="470px"></div>
+        <div class="child2"><img src="./Images/grid2.jpg" alt="" height="250px" width="470px"></div>
+        <div class="child3"><img src="./Images/grid3.jpg" alt="" height="100px" width="500px"></div>
+        <div class="child4"><img src="./Images/grid8.jpg" alt="" height="250px" width="470px"></div>
+        <div class="child5"><img src="./Images/grid4.jpg" alt="" height="100px" width="470px"></div>
+        <div class="child6"><img src="./Images/grid5.jpg" alt="" height="220px" width="470px"></div>
+        <div class="child7"><img src="./Images/grid10.jpg" alt="" height="100px" width="470px"></div>
+        <div class="child8"><img src="./Images/grid6.jpg" alt="" height="150px" width="470px"></div>
+        <div class="child9"><img src="./Images/grid7.jpg" alt="" height="330px" width="470px"></div>
+        <div class="child10"><img src="./Images/grid12.jpg" alt="" height="300px" width="470px"></div>
+        <div class="child11"><img src="./Images/grid9.jpg" alt="" height="350px" width="470px"></div>
+        <div class="child12"><img src="./Images/grid11.jpg" alt="" height="380px" width="470px"></div>
+        <div class="child13"><img src="./Images/grid15.jpg" alt="" height="300px" width="470px"></div>
+        <div class="child14"><img src="./Images/grid1.jpg" alt="" height="500px" width="470px"></div>
+        <div class="child15"><img src="./Images/grid14.jpg" alt="" height="250px" width="470px"></div>
+        <div class="child16"><img src="./Images/grid3.jpg" alt="" height="100px" width="470px"></div>
+        <div class="child17"><img src="./Images/grid16.jpg" alt="" height="340px" width="470px"></div>
+        <div class="child18"><img src="./Images/grid17.jpg" alt="" height="400px" width="470px"></div>
+    </div>
+    <div class="down">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f" style="font-size: 30px;"></i></a>
+        <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-instagram" style="font-size: 30px;"></i></a>
+        <a href="https://sharechat.com/" target="_blank"><img width="20px" height="20px" src="https://img.icons8.com/doodle/48/sharechat.png" alt="sharechat"/></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-twitter" style="font-size: 30px;"></i></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 30px;"></i></a><br>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_photo.htm" target="_blank">Powered by RaviVema.CSS</a>
+    </div>
+</body>
+</html>

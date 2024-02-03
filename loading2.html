@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div>button{
+            margin-left: 200px;
+        }
+        div .teja{
+            width: 0px;
+            height: 35px;
+            background-color: blue;
+            visibility: hidden;
+            transition: width 5s;
+        }
+        .one:hover ~ .teja {
+            visibility: visible;
+            width: 250px;
+        }
+        .one:hover ~ .teja::after{
+            content: "25%";
+        }
+        div .teja{
+            width: 0px;
+            height: 35px;
+            background-color: blue;
+            visibility: hidden;
+            transition: width 5s;
+        }
+        .two:hover ~ .teja{
+            visibility: visible;
+            width: 400px;
+        }
+        .two:hover ~ .teja::after{
+            content: "50% ";
+        }
+       
+        div .teja{
+            width: 0px;
+            height: 35px;
+            background-color: blue;
+            visibility: hidden;
+            transition: width 5s;
+        }
+       
+        .three:hover ~ .teja{
+            visibility: visible;
+            width: 700px;
+        }
+        
+        div .teja{
+            width: 0px;
+            height: 35px;
+            background-color: blue;
+            visibility: hidden;
+            transition: width 5s;
+        }
+        .four:hover ~ .teja{
+            visibility: visible;
+            width: 1000px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2></h2>
+    <div>
+        <button class="one">25</button>
+        <button class="two">50</button>
+        <button class="three">75</button>
+        <button class="four">100</button>
+        <h1 class="teja">loading</h1>
+    </div>
+</body>
+</html>
